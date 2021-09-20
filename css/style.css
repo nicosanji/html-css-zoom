@@ -15,16 +15,16 @@ body {
 
 .nav-buttons-right {
     text-align: right;
-    padding: 15px 10px;
-    height: 57.6px;
+    padding: 13px 10px;
+    height: 50px;
 }
 
 .nav-buttons-right button {
-    font-size: 15px;
+    font-size: 12px;
     background-color: #4b4c4f;
     border: none;
     border-radius: 3px;
-    padding: 5px 10px;
+    padding: 5px;
     color: white;
     text-align:center;
 }
@@ -37,41 +37,90 @@ body {
 
 .switch-left ,.switch-right {
     position: absolute;
+    background-color: black;
+    z-index: 2;
 }
 
 .switch-left {
-    left: 0;
+    left: 10px;
+    top: 50%;
 }
 
 .switch-right {
-    right: 0;
-}
-
-.main-container {
-    
+    right: 10px;
+    top: 50%;
+    margin-right: 7px;
 }
 
 .users-container {
     width: 100%;
-    height: calc(100vh - 107.6px);
+    height: calc(100vh - 100px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     overflow: auto;
     position: relative;
 }
 
 .user {
     border: solid black;
-    height: 120px;
-    width: 270px;
+    height: 150px;
+    width: 200px;
     background-color: blueviolet;
 }
 
+/* FOOTER */
+
 .footer-container {
     height: 50px;
-    background-color: lime;
+    background-color: #232427;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
 }
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-button-box {
+    display: inline-flex;
+    padding: 0 10px
+}
+
+.footer-button-content {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-button-content i{
+    font-size: 20px;
+}
+
+.footer-button-arrow {
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+.fa-share-square {
+    color: lime;
+}
+
+.footer-right {
+    background-color: #4b4c4f;
+    text-align: right;
+    color: rgb(255, 29, 29);
+    padding: 0 10px;
+    line-height: 50px;
+}
+
 
 
