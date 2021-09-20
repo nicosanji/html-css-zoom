@@ -14,9 +14,9 @@ body {
 /* HEADER */
 
 .nav-buttons-right {
-    border: 1px solid white;
     text-align: right;
     padding: 15px 10px;
+    height: 57.6px;
 }
 
 .nav-buttons-right button {
@@ -39,20 +39,34 @@ body {
     position: absolute;
 }
 
+.switch-left {
+    left: 0;
+}
+
+.switch-right {
+    right: 0;
+}
+
+.main-container {
+    
+}
+
 .users-container {
     width: 100%;
-    height: calc(100vh - 109.6px);
+    height: calc(100vh - 107.6px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
+    overflow: auto;
     position: relative;
 }
 
 .user {
-    border: solid lightgreen;
+    border: solid black;
     height: 120px;
     width: 270px;
+    background-color: blueviolet;
 }
 
 .footer-container {
