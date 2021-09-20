@@ -38,18 +38,23 @@ body {
 .switch-left ,.switch-right {
     position: absolute;
     background-color: black;
+    text-align: center;   
     z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
 }
 
 .switch-left {
-    left: 10px;
-    top: 50%;
+    left: 0px;
 }
 
 .switch-right {
-    right: 10px;
-    top: 50%;
-    margin-right: 7px;
+    right: 0px;
+}
+
+.switch-left h1 ,.switch-right h1{
+    font-size: 70px;
 }
 
 .users-container {
