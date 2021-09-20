@@ -36,22 +36,28 @@ body {
 }
 
 .switch-left ,.switch-right {
-    width: 5%;
+    position: absolute;
 }
 
 .users-container {
-    width: 90%;
-    height: calc(100vh - 59.6px);
-    border: 1px solid white;
+    width: 100%;
+    height: calc(100vh - 109.6px);
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    position: relative;
 }
 
 .user {
-    width: ;
-    height: ;
-    border: 1px solid white;
+    border: solid lightgreen;
+    height: 120px;
+    width: 270px;
 }
 
+.footer-container {
+    height: 50px;
+    background-color: lime;
+}
 
 
