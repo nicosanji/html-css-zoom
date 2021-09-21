@@ -29,6 +29,10 @@ body {
     text-align:center;
 }
 
+.nav-buttons-right button:active {
+    background-color: black;
+}
+
 /* MAIN */
 
 .main-container {
@@ -55,6 +59,10 @@ body {
 
 .switch-left h1 ,.switch-right h1{
     font-size: 70px;
+}
+
+.switch-left:hover h1, .switch-right:hover h1 {
+    color: lime;
 }
 
 .users-container {
@@ -91,6 +99,10 @@ body {
     padding: 5px;    
 }
 
+.user:hover p i {
+    color: lime;
+}
+
 /* FOOTER */
 
 .footer-container {
@@ -112,6 +124,10 @@ body {
 .footer-button-box {
     display: inline-flex;
     padding: 0 10px
+}
+
+.footer-button-box:hover {
+    background-color: #4b4c4f;
 }
 
 .footer-button-content {
@@ -141,6 +157,11 @@ body {
     color: rgb(255, 29, 29);
     padding: 0 10px;
     line-height: 50px;
+}
+
+.footer-right:hover {
+    color: lime;
+    text-decoration: underline;
 }
 
 .footer-center :nth-child(2) {
